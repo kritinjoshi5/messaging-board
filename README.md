@@ -5,6 +5,13 @@
 npm install
 ```
 
+## Create setup
+```
+Create your .env at root
+
+use variable name inside VUE_APP_API_URL=<<your access key>>
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
@@ -14,11 +21,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

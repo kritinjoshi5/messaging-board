@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Message Board</router-link> |
+      <router-link to="/about">About App</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -15,6 +15,45 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+.d-flex {
+  display: flex;
+  gap: 4px;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.button {
+  padding: 10px 16px;
+  background: transparent;
+  border: 1px solid grey;
+  border-radius: 6px;
+  outline: none;
+  &.is-small {
+    padding: 4px 6px;
+  }
+  &.is-warn {
+    background: #ff000033;
+  }
+}
+
+.button:hover {
+  background: #42b98338;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 #nav {
